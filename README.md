@@ -2,8 +2,8 @@
 This is a sample of a React Offline Project.
 ![todo app](https://user-images.githubusercontent.com/78798386/175889674-4ea0f8c7-49b7-4214-a177-8d5240dbf9c1.PNG)
 
-### Check the demo Hosted on:
-reacttodo2022.netlify.app
+### Check the demo Hosted on: 
+https://reacttodo2022.netlify.app/
 
 # Instructions
 First clone this repository
