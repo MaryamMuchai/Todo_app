@@ -19,3 +19,5 @@ Run it
 If you have any feedback, please reach out to:
 maryammuchai@gmail.com
 
+## LICENSE
+Copyright(c)2022 [Maryam Muchai](C:\Users\Maryam\Desktop\React_Projects\Todo_App\todo-app\LICENSE)
