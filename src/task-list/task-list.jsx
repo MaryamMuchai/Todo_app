@@ -23,4 +23,15 @@ class TaskList extends Component {
     });
   };
   
-  
+// ADD Task List
+  onSubmit = () => {
+    // check is task is empty string
+    if (this.state.task) {
+      // get the task list from the local storage
+      let tasklist = JSON.parse(localStorage.getItem("tasklist"));
+
+      // task list is null means empty
+      // create an empty list
+      if (tasklist == null) {
+        tasklist = [];
+      }
