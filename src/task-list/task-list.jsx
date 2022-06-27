@@ -39,7 +39,7 @@ class TaskList extends Component {
     // create task object
       // default status is false
       let task = {
-        task: `? ${this.state.task}`,
+        task: ` ${this.state.task}`,
         status: false
       };
 
@@ -93,7 +93,7 @@ this.setState({
       taskComplete["textDecoration"] = "line-through";
     }
     return (
-      <Card key={index} color={color} fluid style={cardBackground}>
+      <Card key={index} color={color} image style={cardBackground}>
         <Card.Content>
           <Card.Header textAlign="left" style={taskComplete}>
             <div style={{ wordWrap: "break-word" }}>{item.task}</div>
@@ -106,7 +106,7 @@ this.setState({
               color="green"
               onClick={() => this.updateTask(index)}
             />
-            <span style={{ paddingRight: 10 }}>Done</span>
+            <span style={{ paddingRight: 10 }}>Complete</span>
             <Icon
               link
               name="undo"
@@ -171,7 +171,7 @@ return (
 <div>
   <div>
     <Header as="h1">
-      <div className="app-header">? Task List</div>{" "}
+      <div className="app-header">Task List</div>{" "}
     </Header>
   </div>
   <div className="app-form">
@@ -182,7 +182,7 @@ return (
         onChange={this.onChange}
         value={this.state.task}
         fluid
-        placeholder="task..."
+        placeholder="Add Task..."
       />
     </Form>
   </div>
