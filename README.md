@@ -15,3 +15,7 @@ Install dependencies. Make sure you already have nodejs & npm installed in your 
 Run it
 > $ npm start # or yarn start
 
+## Feedback
+If you have any feedback, please reach out to:
+maryammuchai@gmail.com
+
